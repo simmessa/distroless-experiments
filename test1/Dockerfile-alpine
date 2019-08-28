@@ -1,0 +1,7 @@
+FROM alpine:latest
+COPY /app /app
+WORKDIR /app
+RUN apk add python py-pip
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+CMD ["app.py"]
