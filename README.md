@@ -16,6 +16,6 @@ The app is meant to be containerized and there are two Dockerfiles:
 
 - Dockerfile
 
-## test-helloworld
+## test-nginx
 
 This is your average nginx (v1.17.8) built statically and containerized using a distroless base image
