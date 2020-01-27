@@ -14,3 +14,9 @@ docker-compose up -d
 
 #cli
 pip install --user anchorecli
+
+echo "Please set credentials..."
+echo "like this:"
+echo "anchore-cli --u admin --p foobar image list"
+
+echo "or via ANCHOR_CLI_USER and ANCHOR_CLI_PASSWORD env vars..."
