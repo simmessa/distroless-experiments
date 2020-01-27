@@ -1,4 +1,5 @@
-# Experimental Distroless image w. nginx 1.17.8 + PageSpeedMod ???1.13.35 beta 2
+# Experimental Distroless image w. nginx 1.17.8
+# WARNING: THIS IMAGE IS NOT MEANT TO BE PRODUCTION READY, USE AT YOUR OWN RISK
 # date: 2020-01-26
 # https://hub.docker.com/r/simmessa/nginx-distroless/
 
